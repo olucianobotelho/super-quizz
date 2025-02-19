@@ -1,0 +1,200 @@
+/* Quiz.css */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-large);
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto; /* Centralizar no container pai */
+}
+
+.quiz-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-h2);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-medium);
+  text-shadow: 0 0 7px var(--color-secondary); /* Neon text shadow */
+}
+
+.score-streak {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: var(--spacing-medium);
+  color: var(--color-accent);
+  font-family: var(--font-family-score);
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px var(--color-accent); /* Neon text shadow for score */
+}
+
+.time-left {
+  color: var(--color-secondary);
+  font-family: var(--font-family-score);
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-large);
+  text-shadow: 0 0 5px var(--color-secondary); /* Neon text shadow for timer */
+}
+
+.question-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius-large);
+  padding: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+  box-shadow: var(--box-shadow-medium);
+  width: 100%; /* Ocupar a largura total do container quiz */
+  max-width: 700px; /* Limitar a largura máxima se necessário */
+}
+
+.question-text {
+  font-family: var(--font-family-question); /* Use var(--font-family-question) */
+  font-size: 1.5rem; /* Ajuste conforme necessário */
+  color: var(--color-text);
+  margin-bottom: var(--spacing-medium);
+}
+
+/* Estilos para alternativas (opções) precisarão ser adicionados aqui */
+/* Exemplo de estilo base para as opções */
+/* Adapte conforme a estrutura de Question.jsx */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small); /* Espaçamento entre as opções */
+  width: 100%;
+}
+
+.option-button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--border-radius-medium);
+  padding: 12px 18px;
+  text-align: left;
+  cursor: pointer;
+  color: var(--color-text);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  box-shadow: none; /* Removendo sombra padrão para opções */
+}
+
+.option-button:hover {
+  background-color: rgba(0, 240, 255, 0.1); /* Leve destaque neon no hover */
+  border-color: var(--color-primary); /* Troca para cor primária no hover */
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.3); /* Adiciona uma sombra neon suave no hover */
+}
+
+.option-button.correct {
+  background-color: var(--color-success);
+  color: var(--color-dark); /* Cor do texto para contraste em verde */
+  border-color: var(--color-success);
+  box-shadow: 0 0 15px var(--color-success); /* Sombra neon verde para correto */
+}
+
+.option-button.incorrect {
+  background-color: var(--color-error);
+  color: var(--color-text);
+  border-color: var(--color-error);
+  box-shadow: 0 0 15px var(--color-error); /* Sombra neon vermelha para incorreto */
+}
+
+
+.answer-feedback {
+  margin-top: var(--spacing-large);
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente para feedback */
+  color: var(--color-text);
+}
+
+.correct-answer-text {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-success); /* Verde para resposta correta */
+  margin-bottom: var(--spacing-small);
+}
+
+.correct-answer {
+  color: var(--color-accent); /* Amarelo neon para destacar a resposta */
+}
+
+.next-question-button {
+  /* Estilos já definidos em App.css para .next-question-button e .primary-button */
+  margin-top: var(--spacing-medium);
+}
+
+.quiz-completed-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-h2);
+  color: var(--color-primary); /* Rosa neon para título de quiz concluído */
+  margin-bottom: var(--spacing-medium);
+  text-shadow: 0 0 10px var(--color-primary); /* Neon text shadow */
+}
+
+.final-score-text,
+.congrats-message {
+  color: var(--color-text);
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-small);
+}
+
+.quiz-container.completed {
+  /* Estilos adicionais para o container quando o quiz é concluído, se necessário */
+}
+
+/* Confetti styles - you might need to adjust these */
+.confetti {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Make sure confetti doesn't interfere with interactions */
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  background-color: #f0f; /* Default confetti color, will be overridden by inline style */
+  top: -10%;
+  opacity: 0;
+  animation: confettiFall 3s forwards var(--animation-delay), confettiRotate 3s linear infinite var(--animation-delay);
+}
+
+@keyframes confettiFall {
+  to {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes confettiRotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.bonus-animation {
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: bonusPop 0.5s ease-out forwards;
+  text-shadow: 0 0 10px var(--color-accent); /* Neon text shadow for bonus */
+}
+
+@keyframes bonusPop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

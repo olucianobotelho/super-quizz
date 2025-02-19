@@ -1,0 +1,30 @@
+@import url('./design-tokens.css');
+
+    body {
+      margin: 0;
+      font-family: var(--font-family-base);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+
+    #root {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--color-background-dark); /* Usando design token */
+      color: var(--color-text-dark); /* Usando design token */
+      transition: background-color var(--animation-duration-normal) var(--animation-timing-function),
+                  color var(--animation-duration-normal) var(--animation-timing-function);
+    }
+
+    .light-theme {
+      background-color: var(--color-background-light); /* Usando design token */
+      color: var(--color-text-light); /* Usando design token */
+    }

@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "dificuldade": "facil",
+    "texto": "Qual a principal função da Engenharia de Prompt?",
+    "opcoes": [
+      "Otimizar a interação humano-IA",
+      "Desenvolver hardware para GPUs",
+      "Criar redes neurais convolucionais",
+      "Treinar modelos básicos de deep learning",
+      "Analisar dados estruturados"
+    ],
+    "resposta": "Otimizar a interação humano-IA",
+    "categoria": "Fundamentos"
+  },
+  {
+    "id": 2,
+    "dificuldade": "facil",
+    "texto": "Qual destes elementos é ESSENCIAL em um prompt eficaz?",
+    "opcoes": [
+      "Contextualização clara",
+      "Código Python embutido",
+      "Fórmulas matemáticas complexas",
+      "Referências históricas",
+      "Diagramas UML"
+    ],
+    "resposta": "Contextualização clara",
+    "categoria": "Estruturação"
+  },
+  {
+    "id": 3,
+    "dificuldade": "facil",
+    "texto": "O que significa 'few-shot learning' em prompts?",
+    "opcoes": [
+      "Fornecer exemplos na instrução",
+      "Limitar a 5 palavras",
+      "Usar poucos recursos computacionais",
+      "Aprendizado com poucas camadas neurais",
+      "Restringir o tempo de resposta"
+    ],
+    "resposta": "Fornecer exemplos na instrução",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 4,
+    "dificuldade": "facil",
+    "texto": "Qual parâmetro controla a aleatoriedade nas respostas?",
+    "opcoes": [
+      "Temperature",
+      "Top_p",
+      "Frequency_penalty",
+      "Max_tokens",
+      "Best_of"
+    ],
+    "resposta": "Temperature",
+    "categoria": "Parâmetros"
+  },
+  {
+    "id": 5,
+    "dificuldade": "facil",
+    "texto": "Qual destes NÃO é um tipo comum de prompt?",
+    "opcoes": [
+      "Prompt recursivo",
+      "Prompt instrucional",
+      "Prompt comparativo",
+      "Prompt de role-playing",
+      "Prompt analítico"
+    ],
+    "resposta": "Prompt recursivo",
+    "categoria": "Classificação"
+  },
+  {
+    "id": 6,
+    "dificuldade": "facil",
+    "texto": "O que significa 'token' no contexto de LLMs?",
+    "opcoes": [
+      "Unidade básica de processamento de texto",
+      "Dispositivo de segurança criptográfica",
+      "Tipo de arquivo de imagem",
+      "Unidade de medida de tempo",
+      "Interface gráfica"
+    ],
+    "resposta": "Unidade básica de processamento de texto",
+    "categoria": "Terminologia"
+  },
+  {
+    "id": 7,
+    "dificuldade": "facil",
+    "texto": "Qual destas é uma técnica para prompts complexos?",
+    "opcoes": [
+      "Chain-of-Thought",
+      "Backpropagation",
+      "Convolução",
+      "Pooling",
+      "Dropout"
+    ],
+    "resposta": "Chain-of-Thought",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 8,
+    "dificuldade": "facil",
+    "texto": "Para que serve o parâmetro 'max_tokens'?",
+    "opcoes": [
+      "Limitar o tamanho da resposta",
+      "Acelerar o processamento",
+      "Melhorar a precisão",
+      "Aumentar a aleatoriedade",
+      "Selecionar o modelo"
+    ],
+    "resposta": "Limitar o tamanho da resposta",
+    "categoria": "Parâmetros"
+  },
+  {
+    "id": 9,
+    "dificuldade": "facil",
+    "texto": "O que é 'role prompting'?",
+    "opcoes": [
+      "Atribuir um papel ao modelo",
+      "Definir permissões de acesso",
+      "Criar arquétipos de usuário",
+      "Configurar hierarquias",
+      "Designar funções em equipe"
+    ],
+    "resposta": "Atribuir um papel ao modelo",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 10,
+    "dificuldade": "facil",
+    "texto": "Qual destes é um exemplo de prompt fechado?",
+    "opcoes": [
+      "Responda sim ou não",
+      "Discorra sobre...",
+      "Analise criticamente...",
+      "Descreva em detalhes...",
+      "Compare e contraste..."
+    ],
+    "resposta": "Responda sim ou não",
+    "categoria": "Classificação"
+  },
+  {
+    "id": 11,
+    "dificuldade": "medio",
+    "texto": "Qual técnica usa pensamento passo-a-passo?",
+    "opcoes": [
+      "Chain-of-Thought",
+      "Few-shot",
+      "Zero-shot",
+      "Auto-consistência",
+      "Meta-prompting"
+    ],
+    "resposta": "Chain-of-Thought",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 12,
+    "dificuldade": "medio",
+    "texto": "Como melhorar prompts para análise de dados?",
+    "opcoes": [
+      "Especificar formato de saída",
+      "Aumentar a temperatura",
+      "Reduzir tokens",
+      "Usar linguagem vaga",
+      "Ocultar contexto"
+    ],
+    "resposta": "Especificar formato de saída",
+    "categoria": "Otimização"
+  },
+  {
+    "id": 13,
+    "dificuldade": "medio",
+    "texto": "O que é 'prompt chaining'?",
+    "opcoes": [
+      "Dividir tarefas em múltiplos prompts",
+      "Criar links entre documentos",
+      "Encaixar tokens",
+      "Conectar APIs externas",
+      "Agrupar modelos"
+    ],
+    "resposta": "Dividir tarefas em múltiplos prompts",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 14,
+    "dificuldade": "medio",
+    "texto": "Qual valor de temperatura é ideal para criatividade?",
+    "opcoes": [
+      "0.7-1.0",
+      "0-0.3",
+      "1.5-2.0",
+      "2.5-3.0",
+      "Nenhuma das opções"
+    ],
+    "resposta": "0.7-1.0",
+    "categoria": "Parâmetros"
+  },
+  {
+    "id": 15,
+    "dificuldade": "medio",
+    "texto": "O que previne 'hallucinations' em respostas?",
+    "opcoes": [
+      "Contexto específico",
+      "Aumentar tokens",
+      "Temperatura alta",
+      "Prompting vago",
+      "Limitar exemplos"
+    ],
+    "resposta": "Contexto específico",
+    "categoria": "Otimização"
+  },
+  {
+    "id": 16,
+    "dificuldade": "medio",
+    "texto": "Para que serve o 'system message' no ChatGPT?",
+    "opcoes": [
+      "Definir comportamento do modelo",
+      "Configurar hardware",
+      "Armazenar histórico",
+      "Monitorar desempenho",
+      "Gerenciar memória"
+    ],
+    "resposta": "Definir comportamento do modelo",
+    "categoria": "Arquitetura"
+  },
+  {
+    "id": 17,
+    "dificuldade": "medio",
+    "texto": "Qual técnica é útil para debugging de prompts?",
+    "opcoes": [
+      "Iterative refinement",
+      "Batch processing",
+      "Parallel computing",
+      "Dimensionality reduction",
+      "Feature engineering"
+    ],
+    "resposta": "Iterative refinement",
+    "categoria": "Técnicas"
+  },
+  {
+    "id": 18,
+    "dificuldade": "medio",
+    "texto": "O que é 'meta-prompting'?",
+    "opcoes": [
+      "Instruir o modelo a criar prompts",
+      "Agrupar metadados",
+      "Compilar múltiplos modelos",
+      "Analisar estatísticas",
+      "Gerar metáforas"
+    ],
+    "resposta": "Instruir o modelo a criar prompts",
+    "categoria": "Técnicas Avançadas"
+  },
+  {
+    "id": 19,
+    "dificuldade": "medio",
+    "texto": "Como melhorar consistência em longos diálogos?",
+    "opcoes": [
+      "Manter contexto no prompt",
+      "Resetar frequência",
+      "Variar temperatura",
+      "Usar múltiplos modelos",
+      "Ignorar histórico"
+    ],
+    "resposta": "Manter contexto no prompt",
+    "categoria": "Otimização"
+  },
+  {
+    "id": 20,
+    "dificuldade": "medio",
+    "texto": "Qual framework é usado para prompts estruturados?",
+    "opcoes": [
+      "LangChain",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Scikit-learn"
+    ],
+    "resposta": "LangChain",
+    "categoria": "Ferramentas"
+  },
+  {
+    "id": 21,
+    "dificuldade": "medio",
+    "texto": "Qual técnica usa estímulos direcionais para guiar respostas?",
+    "opcoes": [
+      "Directional-stimulus prompting",
+      "Multi-task learning",
+      "Data augmentation",
+      "Transfer learning",
+      "Active learning"
+    ],
+    "resposta": "Directional-stimulus prompting",
+    "categoria": "Técnicas Avançadas"
+  },
+  {
+    "id": 30,
+    "dificuldade": "medio",
+    "texto": "Qual parâmetro controla a diversidade léxica?",
+    "opcoes": [
+      "Frequency_penalty",
+      "Temperature",
+      "Top_p",
+      "Presence_penalty",
+      "Stop_sequences"
+    ],
+    "resposta": "Frequency_penalty",
+    "categoria": "Parâmetros"
+  },
+  {
+    "id": 35,
+    "dificuldade": "medio",
+    "texto": "Para gerar código Python, qual estratégia é mais eficaz?",
+    "opcoes": [
+      "Especificar formato de saída com ```python",
+      "Usar analogias abstratas",
+      "Limitar a 3 linhas",
+      "Ocultar exemplos",
+      "Variar temperatura para 2.0"
+    ],
+    "resposta": "Especificar formato de saída com ```python",
+    "categoria": "Aplicações"
+  },
+  {
+    "id": 45,
+    "dificuldade": "dificil",
+    "texto": "O que caracteriza o 'self-refine prompting'?",
+    "opcoes": [
+      "Modelo critica e revisa sua própria saída",
+      "Atualização automática de pesos",
+      "Redução de dimensionalidade",
+      "Clusterização semântica",
+      "Normalização de embeddings"
+    ],
+    "resposta": "Modelo critica e revisa sua própria saída",
+    "categoria": "Técnicas Avançadas"
+  },
+  {
+    "id": 60,
+    "dificuldade": "dificil",
+    "texto": "Qual técnica é usada para raciocínio matemático complexo?",
+    "opcoes": [
+      "Program-Aided Language Models (PAL)",
+      "Prompt chaining",
+      "Role-playing",
+      "Zero-shot expansion",
+      "Semantic priming"
+    ],
+    "resposta": "Program-Aided Language Models (PAL)",
+    "categoria": "Aplicações Científicas"
+  },
+  {
+    "id": 85,
+    "dificuldade": "dificil",
+    "texto": "Como mitigar viés em prompts de geração de texto?",
+    "opcoes": [
+      "Adicionar diretivas explícitas de neutralidade",
+      "Aumentar a temperatura",
+      "Usar modelos menores",
+      "Limitar contexto histórico",
+      "Desativar verificações de segurança"
+    ],
+    "resposta": "Adicionar diretivas explícitas de neutralidade",
+    "categoria": "Ética"
+  },
+  {
+    "id": 100,
+    "dificuldade": "dificil",
+    "texto": "Qual destes NÃO é um padrão OOD para validação de prompts?",
+    "opcoes": [
+      "BLEU Score",
+      "SelfCheckGPT",
+      "Human-in-the-Loop",
+      "FactCC",
+      "SummEval"
+    ],
+    "resposta": "BLEU Score",
+    "categoria": "Validação"
+  }
+]

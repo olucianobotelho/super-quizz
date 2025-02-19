@@ -1,0 +1,54 @@
+/* Question.css */
+    .question-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: var(--spacing-large);
+      padding: var(--spacing-medium);
+      border-radius: var(--border-radius-medium);
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: var(--box-shadow-small);
+    }
+
+    .question-text {
+      font-size: 1.2rem;
+      font-weight: var(--font-weight-bold);
+      color: var(--color-neutral);
+      margin-bottom: var(--spacing-medium);
+      text-align: center;
+    }
+
+    .options-container {
+      display: flex;
+      flex-direction: column; /* Opções em coluna */
+      width: 100%;
+      max-width: 500px; /* Limitar a largura das opções */
+    }
+
+    .option-button {
+      background-color: var(--color-secondary);
+      color: var(--color-neutral);
+      padding: var(--spacing-medium);
+      border: none;
+      border-radius: var(--border-radius-small);
+      margin-bottom: var(--spacing-small);
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color var(--animation-duration-fast) var(--animation-timing-function), transform var(--animation-duration-fast) var(--animation-timing-function);
+      box-shadow: var(--box-shadow-small);
+      text-align: center; /* Centralizar texto nos botões */
+    }
+
+    .option-button:last-child {
+      margin-bottom: 0; /* Remover margem do último botão */
+    }
+
+    .option-button:hover {
+      background-color: var(--color-button-hover);
+      transform: scale(1.02);
+    }
+
+    .option-button:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--color-accent); /* Destaque de foco */
+    }

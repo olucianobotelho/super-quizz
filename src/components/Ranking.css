@@ -1,0 +1,57 @@
+/* Ranking.css */
+    .ranking-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: var(--spacing-large);
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: var(--border-radius-large);
+      box-shadow: var(--box-shadow-medium);
+      max-width: 600px; /* Limitar a largura do ranking */
+      margin: auto; /* Centralizar na tela */
+    }
+
+    .ranking-title {
+      color: var(--color-primary);
+      font-size: var(--font-size-h2);
+      margin-bottom: var(--spacing-large);
+      text-shadow: 2px 2px 3px var(--color-shadow);
+    }
+
+    .ranking-list {
+      list-style-type: none;
+      padding: 0;
+      width: 100%;
+    }
+
+    .ranking-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--spacing-medium);
+      margin-bottom: var(--spacing-small);
+      background-color: rgba(0, 0, 0, 0.05);
+      border-radius: var(--border-radius-small);
+      box-shadow: var(--box-shadow-small);
+    }
+
+    .ranking-item:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.1); /* Cores alternadas para melhor visualização */
+    }
+
+    .ranking-name {
+      font-weight: var(--font-weight-bold);
+      color: var(--color-neutral);
+      text-shadow: 1px 1px 2px var(--color-shadow);
+    }
+
+    .ranking-score {
+      color: var(--color-accent);
+      font-weight: var(--font-weight-bold);
+      margin-left: var(--spacing-large);
+      text-shadow: 1px 1px 2px var(--color-shadow);
+    }
+
+    .back-menu-button {
+      margin-top: var(--spacing-large);
+    }

@@ -1,0 +1,32 @@
+/* MainMenu.css */
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-large);
+}
+
+.main-title {
+  /* Estilos já definidos em App.css para h1, garantindo consistência */
+  margin-bottom: var(--spacing-xlarge);
+}
+
+.name-input {
+  /* Estilos já definidos em App.css para input[type="text"], garantindo consistência */
+  margin-bottom: var(--spacing-medium);
+  width: 70%; /* Ajuste a largura conforme necessário */
+  max-width: 300px;
+}
+
+.start-button {
+  /* Estilos já definidos em App.css para .start-button e .primary-button */
+  margin-bottom: var(--spacing-small);
+  width: auto; /* Ajusta a largura para o conteúdo */
+  min-width: 150px; /* Largura mínima para o botão */
+}
+
+.ranking-button {
+  /* Estilos já definidos em App.css para .ranking-button e .secondary-button */
+  width: auto; /* Ajusta a largura para o conteúdo */
+  min-width: 150px; /* Largura mínima para o botão */
+}

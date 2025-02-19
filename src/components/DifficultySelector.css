@@ -1,0 +1,25 @@
+.difficulty-selector {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.difficulty-button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px; /* More rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    font-size: 1rem;
+}
+
+.difficulty-button:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.difficulty-button:active {
+    transform: translateY(0); /* Reset transform on click */
+}

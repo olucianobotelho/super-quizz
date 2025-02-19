@@ -1,0 +1,90 @@
+:root {
+    /* Cores Cyberpunk Definitivas */
+    --color-primary: #FF00FF;     /* Rosa Neon - Elementos principais */
+    --color-secondary: #00F0FF;   /* Ciano - Interações */
+    --color-accent: #FFE600;      /* Amarelo - Destaques */
+    --color-success: #00FF41;     /* Verde - Acertos */
+    --color-error: #FF3860;       /* Vermelho - Erros */
+    --color-background: #2A0A4A;  /* Roxo Base */
+    --color-surface: #3D1A5A;     /* Roxo Secundário */
+    --color-text: #FFFFFF;        /* Texto Principal */
+
+    /* Cores Cyberpunk */
+    /* --color-primary: #FF00FF;        Neon Rosa - Elementos principais
+    --color-secondary: #00F0FF;      Ciano Elétrico - Interações e destaques
+    --color-background-dark: #2A0A4A; Roxo Profundo - Fundo base
+    --color-accent: #FFE600;         Amarelo Neon - Alertas e pontuações
+    --color-correct: #00FF41;        Verde Matrix - Acertos e progressos
+    --color-incorrect: #FF4500;      Laranja Avermelhado (Incorreto) - Mantido para feedback negativo)
+    --color-button-hover: #FFA07A;    Salmão Claro (Hover Botão) - Mantido ou ajustar para ciano/rosa
+    --color-timer-start: #00FF7F;     Verde Primavera (Timer Início) - Ajustar para verde matrix ou ciano
+    --color-timer-mid: #FFFF00;      Amarelo (Timer Meio) - Amarelo Neon
+    --color-timer-end: #FF4500;      Laranja Avermelhado (Timer Fim) - Mantido ou ajustar para rosa neon
+    --color-neutral: #F0F0F0;        Cinza Claro Neutro - Manter ou ajustar para tom mais escuro se necessário
+    --color-dark: #333;             Cinza Escuro - Manter ou ajustar para tom mais claro se necessário
+    --color-background-light: #f7f7f7;  Background claro - Remover ou adaptar para tema claro cyberpunk se necessário
+    --color-text-light: #333;        Texto claro - Remover ou adaptar para tema claro cyberpunk se necessário
+    --color-text-dark: #fff;         Texto escuro
+    --color-overlay-background: rgba(0, 0, 0, 0.6);
+    --color-shadow: rgba(0, 0, 0, 0.3); Sombra mais forte para cyberpunk */
+
+    /* Tipografia Cyberpunk */
+    --font-family-base: 'Data 70', monospace; /* Fonte terminal para o corpo do texto */
+    --font-family-title: 'Orbitron', sans-serif; /* Fonte display para títulos -  'Orbitron' */
+    --font-family-question: 'Rajdhani', sans-serif; /* Fonte para question text - 'Rajdhani' */
+    --font-family-score: 'OCR-A', monospace; /* Fonte monospace para pontuação */
+
+    --font-size-base: 16px;
+    --font-size-h1: 3rem; /* Alterado para 3rem conforme especificado */
+    --font-size-h2: 2rem;
+    --font-size-h3: 1.5rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    /* Animações - Manter por enquanto, ajustar depois */
+    --animation-duration-fast: 0.2s;
+    --animation-duration-normal: 0.3s;
+    --animation-duration-slow: 0.5s;
+    --animation-timing-function: ease-out;
+
+    /* Breakpoints - Manter */
+    --breakpoint-mobile: 576px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 992px;
+    --breakpoint-large-desktop: 1200px;
+
+    /* Espaçamento - Manter */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 1.5rem;
+    --spacing-xlarge: 2rem;
+
+    /* Raio da Borda - Ajustar para mais angular se necessário para cyberpunk */
+    --border-radius-small: 2px;
+    --border-radius-medium: 8px; /* Ajustado para 8px conforme botão */
+    --border-radius-large: 16px; /* Ajustado para 16px conforme cards */
+
+    /* Sombras - Ajustar para neon glow ou mais pronunciadas */
+    --box-shadow-small: 0 2px 4px var(--color-shadow);
+    --box-shadow-medium: 0 0 15px var(--color-secondary); /* Neon glow shadow for buttons */
+    --box-shadow-large: 0 8px 16px var(--color-shadow);
+  }
+
+  /* Definições de Fontes - Adicionar @font-face aqui se formos usar fontes web personalizadas */
+  /* Exemplo:
+  @font-face {
+    font-family: 'Orbitron';
+    src: url('/fonts/orbitron.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  */
+ /* Exemplo:
+  @font-face {
+    font-family: 'Rajdhani';
+    src: url('/fonts/rajdhani.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  */
+  /* Nota: WebContainer pode ter limitações para carregar fontes locais, verificar alternativas como Google Fonts se necessário */

@@ -1,0 +1,133 @@
+/* App.css */
+.App {
+  font-family: var(--font-family-base);
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw; /* Make App full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text); /* Use var(--color-text) */
+  background: linear-gradient(to bottom, #2A0A4A, #1A0635); /* Gradiente dinâmico de roxo */
+  transition: background-color var(--animation-duration-normal) var(--animation-timing-function), color var(--animation-duration-normal) var(--animation-timing-function);
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+.light-theme {
+  color: var(--color-text-light);
+  background-color: var(--color-background-light);
+}
+
+.app-container {
+  width: 90%;
+  max-width: 800px;
+  margin: var(--spacing-medium) auto; /* Keep auto margin for horizontal centering and add vertical spacing */
+  padding: var(--spacing-medium);
+  background: rgba(255, 255, 255, 0.1); /* Efeito Glassmorphism */
+  backdrop-filter: blur(10px);
+  border-radius: var(--border-radius-large);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: var(--box-shadow-medium);
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+h1 {
+  font-family: var(--font-family-title); /* Use var(--font-family-title) */
+  font-size: var(--font-size-h1);
+  margin-bottom: var(--spacing-small);
+  /* Estilo gradiente para o título */
+  background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Necessário para o background-clip funcionar corretamente */
+}
+
+.game-over-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-large);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--box-shadow-medium);
+}
+
+.game-over-screen h2 {
+  color: var(--color-text);
+  margin-bottom: var(--spacing-medium);
+  font-size: var(--font-size-h2);
+}
+
+.restart-button,
+.menu-button,
+.start-button,
+.ranking-button,
+.next-question-button { /* Adicionado para incluir todos os botões */
+  /* Estilos base do botão */
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--border-radius-medium);
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin: var(--spacing-small);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: var(--font-weight-bold);
+  text-shadow: 0 0 5px rgba(0, 240, 255, 0.8); /* Neon text shadow */
+  box-shadow: var(--box-shadow-medium); /* Apply box-shadow from design tokens */
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+  color: var(--color-text);
+  border: 2px solid var(--color-secondary);
+}
+
+.restart-button:hover,
+.menu-button:hover,
+.start-button:hover,
+.ranking-button:hover,
+.next-question-button:hover { /* Adicionado hover para todos os botões */
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px var(--color-secondary); /* Intensifica o neon no hover */
+  background: linear-gradient(45deg, #ff33ff, #33ffff); /* Hover gradient */
+}
+
+/* Estilos específicos para botões primários e secundários podem ser adicionados aqui se necessário */
+.primary-button {
+  /* Estilos adicionais para botões primários, se necessário */
+}
+
+.secondary-button {
+  /* Estilos adicionais para botões secundários, se necessário */
+  background: rgba(255, 255, 255, 0.05); /* Fundo mais suave para botões secundários */
+  border: 1px solid var(--color-secondary);
+  box-shadow: none; /* Remove a sombra padrão para secundários ou ajuste */
+}
+
+.secondary-button:hover {
+  background: rgba(255, 255, 255, 0.1); /* Hover mais suave para secundários */
+  box-shadow: 0 0 15px var(--color-secondary); /* Adiciona uma sombra mais suave no hover */
+  transform: scale(1.02); /* Efeito de scale suave no hover */
+}
+
+/* Input field style */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: var(--border-radius-medium);
+  border: 2px solid var(--color-secondary); /* Neon border */
+  background-color: transparent; /* Transparent background */
+  color: var(--color-text); /* Text color */
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.5); /* Neon shadow */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.8); /* Stronger neon shadow on focus */
+  border-color: var(--color-primary); /* Change border color on focus */
+}
