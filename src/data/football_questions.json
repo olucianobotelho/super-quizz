@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "dificuldade": "facil",
+    "texto": "Qual seleção ganhou mais Copas do Mundo?",
+    "opcoes": [
+      "Brasil",
+      "Alemanha",
+      "Itália",
+      "Argentina",
+      "França"
+    ],
+    "resposta": "Brasil",
+    "categoria": "História"
+  },
+  {
+    "id": 2,
+    "dificuldade": "facil",
+    "texto": "Quantos jogadores uma equipe tem em campo durante uma partida?",
+    "opcoes": [
+      "11",
+      "10",
+      "12",
+      "9",
+      "8"
+    ],
+    "resposta": "11",
+    "categoria": "Regras"
+  },
+  {
+    "id": 3,
+    "dificuldade": "facil",
+    "texto": "Qual jogador é conhecido como 'O Rei do Futebol'?",
+    "opcoes": [
+      "Pelé",
+      "Maradona",
+      "Zico",
+      "Ronaldo",
+      "Messi"
+    ],
+    "resposta": "Pelé",
+    "categoria": "Jogadores"
+  },
+  {
+    "id": 4,
+    "dificuldade": "facil",
+    "texto": "Em que país foi realizada a primeira Copa do Mundo?",
+    "opcoes": [
+      "Uruguai",
+      "Brasil",
+      "França",
+      "Inglaterra",
+      "Itália"
+    ],
+    "resposta": "Uruguai",
+    "categoria": "História"
+  },
+  {
+    "id": 5,
+    "dificuldade": "facil",
+    "texto": "Qual é a duração normal de um jogo de futebol?",
+    "opcoes": [
+      "90 minutos",
+      "80 minutos",
+      "100 minutos",
+      "85 minutos",
+      "95 minutos"
+    ],
+    "resposta": "90 minutos",
+    "categoria": "Regras"
+  },
+  {
+    "id": 6,
+    "dificuldade": "medio",
+    "texto": "Qual clube tem mais títulos da Liga dos Campeões da UEFA?",
+    "opcoes": [
+      "Real Madrid",
+      "Milan",
+      "Liverpool",
+      "Bayern de Munique",
+      "Barcelona"
+    ],
+    "resposta": "Real Madrid",
+    "categoria": "Clubes"
+  },
+  {
+    "id": 7,
+    "dificuldade": "medio",
+    "texto": "Quem é o maior artilheiro da história das Copas do Mundo?",
+    "opcoes": [
+      "Miroslav Klose",
+      "Ronaldo",
+      "Pelé",
+      "Just Fontaine",
+      "Gerd Müller"
+    ],
+    "resposta": "Miroslav Klose",
+    "categoria": "Jogadores"
+  },
+  {
+    "id": 8,
+    "dificuldade": "medio",
+    "texto": "Em que ano foi fundada a FIFA?",
+    "opcoes": [
+      "1904",
+      "1900",
+      "1908",
+      "1896",
+      "1912"
+    ],
+    "resposta": "1904",
+    "categoria": "História"
+  },
+  {
+    "id": 9,
+    "dificuldade": "medio",
+    "texto": "Qual foi o primeiro time brasileiro a ganhar a Libertadores?",
+    "opcoes": [
+      "Santos",
+      "São Paulo",
+      "Palmeiras",
+      "Flamengo",
+      "Cruzeiro"
+    ],
+    "resposta": "Santos",
+    "categoria": "Clubes"
+  },
+  {
+    "id": 10,
+    "dificuldade": "medio",
+    "texto": "Qual é a distância da marca do pênalti até o gol?",
+    "opcoes": [
+      "11 metros",
+      "10 metros",
+      "12 metros",
+      "9 metros",
+      "13 metros"
+    ],
+    "resposta": "11 metros",
+    "categoria": "Regras"
+  }
+]

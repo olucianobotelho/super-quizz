@@ -10,40 +10,43 @@ import React, { useState, useEffect } from 'react';
       const [playerName, setPlayerName] = useState('');
       const [finalScore, setFinalScore] = useState(0);
       const [rankingData, setRankingData] = useState([]); // Initialize rankingData as empty array
-
+      const [currentGameTheme, setCurrentGameTheme] = useState(null);
+    
       useEffect(() => {
         loadRanking(); // Load ranking on component mount
       }, []);
-
+    
       const handleThemeChange = (newTheme) => {
         setTheme(newTheme);
       };
-
-      const startGame = (name) => {
+    
+      const startGame = (name, selectedTheme, gameTheme) => {
         setPlayerName(name);
+        setTheme(selectedTheme);
+        setCurrentGameTheme(gameTheme);
         setGameState('quiz');
       };
-
+    
       const showRanking = () => {
         loadRanking(); // Refresh ranking data before showing
         setGameState('ranking');
       };
-
+    
       const endGame = (score) => {
         setFinalScore(score);
         setGameState('gameOver');
-        updateRanking(playerName, score);
+        updateRanking(playerName, score, currentGameTheme);
         loadRanking(); // Refresh ranking after updating
       };
-
+    
       const restartGame = () => {
         setGameState('quiz');
       };
-
+    
       const backToMenu = () => {
         setGameState('menu');
       };
-
+    
       // Funções de Ranking (Simuladas com localStorage)
       const loadRanking = () => {
         const savedRanking = localStorage.getItem('ranking');
@@ -51,23 +54,23 @@ import React, { useState, useEffect } from 'react';
         setRankingData(initialRanking); // Update rankingData state
         return initialRanking; // Return for other uses if needed
       };
-
-      const updateRanking = (name, score) => {
+    
+      const updateRanking = (name, score, theme) => {
         const currentRanking = loadRanking();
-        const newEntry = { name, score };
+        const newEntry = { name, score, theme };
         const updatedRanking = [...currentRanking, newEntry]
           .sort((a, b) => b.score - a.score)
           .slice(0, 10); // Top 10
         localStorage.setItem('ranking', JSON.stringify(updatedRanking));
       };
-
+    
       return (
         <div className={`App ${theme === 'light' ? 'light-theme' : ''}`}> {/* Aplica tema light condicionalmente */}
           <div className="app-container">
             {gameState === 'menu' && (
               <MainMenu onStart={startGame} onShowRanking={showRanking} />
             )}
-            {gameState === 'quiz' && <Quiz onQuizEnd={endGame} />}
+            {gameState === 'quiz' && <Quiz onQuizEnd={endGame} theme={theme} />}
             {gameState === 'ranking' && <Ranking ranking={rankingData} onBackToMenu={backToMenu} />} {/* Pass rankingData as ranking prop */}
             {gameState === 'gameOver' && (
               <div className="game-over-screen">

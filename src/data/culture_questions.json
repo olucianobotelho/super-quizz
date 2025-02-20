@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "dificuldade": "facil",
+    "texto": "Qual filme ganhou o Oscar de Melhor Filme em 2024?",
+    "opcoes": [
+      "Oppenheimer",
+      "Barbie",
+      "Pobres Criaturas",
+      "Assassinos da Lua das Flores",
+      "Zona de Interesse"
+    ],
+    "resposta": "Oppenheimer",
+    "categoria": "Cinema"
+  },
+  {
+    "id": 2,
+    "dificuldade": "medio",
+    "texto": "Qual artista é conhecido como o 'Rei do Pop'?",
+    "opcoes": [
+      "Michael Jackson",
+      "Elvis Presley",
+      "Prince",
+      "David Bowie",
+      "Madonna"
+    ],
+    "resposta": "Michael Jackson",
+    "categoria": "Música"
+  },
+  {
+    "id": 3,
+    "dificuldade": "dificil",
+    "texto": "Qual destes pintores é conhecido por ter cortado sua própria orelha?",
+    "opcoes": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet",
+      "Salvador Dalí"
+    ],
+    "resposta": "Vincent van Gogh",
+    "categoria": "Arte"
+  },
+  {
+    "id": 4,
+    "dificuldade": "facil",
+    "texto": "Qual é a série mais assistida da Netflix até 2024?",
+    "opcoes": [
+      "Squid Game",
+      "Stranger Things",
+      "Wednesday",
+      "Bridgerton",
+      "The Witcher"
+    ],
+    "resposta": "Squid Game",
+    "categoria": "TV"
+  },
+  {
+    "id": 5,
+    "dificuldade": "medio",
+    "texto": "Qual é o livro mais vendido do mundo, depois da Bíblia?",
+    "opcoes": [
+      "Dom Quixote",
+      "O Pequeno Príncipe",
+      "Harry Potter e a Pedra Filosofal",
+      "O Senhor dos Anéis",
+      "O Alquimista"
+    ],
+    "resposta": "Dom Quixote",
+    "categoria": "Literatura"
+  },
+  {
+    "id": 6,
+    "dificuldade": "dificil",
+    "texto": "Qual destes videogames foi lançado primeiro?",
+    "opcoes": [
+      "Pong",
+      "Super Mario Bros",
+      "Pac-Man",
+      "Space Invaders",
+      "Tetris"
+    ],
+    "resposta": "Pong",
+    "categoria": "Games"
+  },
+  {
+    "id": 7,
+    "dificuldade": "facil",
+    "texto": "Qual é o nome da boneca antagonista do filme M3GAN?",
+    "opcoes": [
+      "Model 3 Generative Android",
+      "Mechanical Electronic Giant Android",
+      "Modern Electronic Gaming Android",
+      "Mobile Electronic Guardian Android",
+      "Mega Electronic General Android"
+    ],
+    "resposta": "Model 3 Generative Android",
+    "categoria": "Cinema"
+  },
+  {
+    "id": 8,
+    "dificuldade": "medio",
+    "texto": "Qual destas músicas foi a mais tocada globalmente no Spotify em 2023?",
+    "opcoes": [
+      "Flowers",
+      "Anti-Hero",
+      "Cruel Summer",
+      "Last Night",
+      "Rich Flex"
+    ],
+    "resposta": "Flowers",
+    "categoria": "Música"
+  },
+  {
+    "id": 9,
+    "dificuldade": "dificil",
+    "texto": "Qual foi o primeiro filme da história a ultrapassar 1 bilhão de dólares em bilheteria?",
+    "opcoes": [
+      "Titanic",
+      "Jurassic Park",
+      "Star Wars: Episódio I",
+      "Avatar",
+      "O Senhor dos Anéis: O Retorno do Rei"
+    ],
+    "resposta": "Titanic",
+    "categoria": "Cinema"
+  },
+  {
+    "id": 10,
+    "dificuldade": "medio",
+    "texto": "Qual destes artistas tem o recorde de mais Grammys ganhos?",
+    "opcoes": [
+      "Beyoncé",
+      "Taylor Swift",
+      "Michael Jackson",
+      "Paul McCartney",
+      "Stevie Wonder"
+    ],
+    "resposta": "Beyoncé",
+    "categoria": "Música"
+  },
+  {
+    "id": 11,
+    "dificuldade": "facil",
+    "texto": "Qual é o nome do criador do Facebook?",
+    "opcoes": [
+      "Mark Zuckerberg",
+      "Bill Gates",
+      "Steve Jobs",
+      "Elon Musk",
+      "Jeff Bezos"
+    ],
+    "resposta": "Mark Zuckerberg",
+    "categoria": "Tecnologia"
+  },
+  {
+    "id": 12,
+    "dificuldade": "medio",
+    "texto": "Qual destes animes é o mais vendido de todos os tempos?",
+    "opcoes": [
+      "One Piece",
+      "Dragon Ball",
+      "Naruto",
+      "Attack on Titan",
+      "Death Note"
+    ],
+    "resposta": "One Piece",
+    "categoria": "Anime"
+  },
+  {
+    "id": 13,
+    "dificuldade": "dificil",
+    "texto": "Quem é considerado o pai do Pop Art?",
+    "opcoes": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Keith Haring",
+      "Robert Rauschenberg",
+      "Claes Oldenburg"
+    ],
+    "resposta": "Andy Warhol",
+    "categoria": "Arte"
+  },
+  {
+    "id": 14,
+    "dificuldade": "facil",
+    "texto": "Qual é o filme de maior bilheteria de todos os tempos?",
+    "opcoes": [
+      "Avatar",
+      "Vingadores: Ultimato",
+      "Titanic",
+      "Star Wars: O Despertar da Força",
+      "Barbie"
+    ],
+    "resposta": "Avatar",
+    "categoria": "Cinema"
+  },
+  {
+    "id": 15,
+    "dificuldade": "medio",
+    "texto": "Qual destas bandas é conhecida como 'The Fab Four'?",
+    "opcoes": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "Pink Floyd",
+      "Queen"
+    ],
+    "resposta": "The Beatles",
+    "categoria": "Música"
+  },
+  {
+    "id": 16,
+    "dificuldade": "dificil",
+    "texto": "Qual foi o primeiro videogame a apresentar uma narrativa complexa?",
+    "opcoes": [
+      "Adventure",
+      "Pac-Man",
+      "Donkey Kong",
+      "Space Invaders",
+      "Asteroids"
+    ],
+    "resposta": "Adventure",
+    "categoria": "Games"
+  },
+  {
+    "id": 17,
+    "dificuldade": "facil",
+    "texto": "Qual é a rede social mais usada no mundo em 2024?",
+    "opcoes": [
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "Twitter",
+      "LinkedIn"
+    ],
+    "resposta": "Facebook",
+    "categoria": "Tecnologia"
+  },
+  {
+    "id": 18,
+    "dificuldade": "medio",
+    "texto": "Qual destes autores escreveu 'Cem Anos de Solidão'?",
+    "opcoes": [
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "Paulo Coelho",
+      "Mario Vargas Llosa",
+      "Julio Cortázar"
+    ],
+    "resposta": "Gabriel García Márquez",
+    "categoria": "Literatura"
+  },
+  {
+    "id": 19,
+    "dificuldade": "dificil",
+    "texto": "Qual foi a primeira música a atingir 1 bilhão de streams no Spotify?",
+    "opcoes": [
+      "Shape of You",
+      "Despacito",
+      "See You Again",
+      "Uptown Funk",
+      "Blinding Lights"
+    ],
+    "resposta": "Shape of You",
+    "categoria": "Música"
+  },
+  {
+    "id": 20,
+    "dificuldade": "facil",
+    "texto": "Qual é o super-herói mais popular da Marvel Comics?",
+    "opcoes": [
+      "Homem-Aranha",
+      "Homem de Ferro",
+      "Capitão América",
+      "Thor",
+      "Hulk"
+    ],
+    "resposta": "Homem-Aranha",
+    "categoria": "Quadrinhos"
+  },
+  {
+    "id": 21,
+    "dificuldade": "medio",
+    "texto": "Qual destes filmes do Studio Ghibli ganhou o Oscar de Melhor Filme de Animação?",
+    "opcoes": [
+      "A Viagem de Chihiro",
+      "Meu Amigo Totoro",
+      "Princesa Mononoke",
+      "O Castelo Animado",
+      "Ponyo"
+    ],
+    "resposta": "A Viagem de Chihiro",
+    "categoria": "Anime"
+  },
+  {
+    "id": 22,
+    "dificuldade": "dificil",
+    "texto": "Qual foi o primeiro videogame a usar gráficos 3D?",
+    "opcoes": [
+      "Battlezone",
+      "Doom",
+      "Wolfenstein 3D",
+      "Quake",
+      "Star Fox"
+    ],
+    "resposta": "Battlezone",
+    "categoria": "Games"
+  },
+  {
+    "id": 23,
+    "dificuldade": "facil",
+    "texto": "Quem é o autor da série Harry Potter?",
+    "opcoes": [
+      "J.K. Rowling",
+      "Stephen King",
+      "George R.R. Martin",
+      "C.S. Lewis",
+      "J.R.R. Tolkien"
+    ],
+    "resposta": "J.K. Rowling",
+    "categoria": "Literatura"
+  },
+  {
+    "id": 24,
+    "dificuldade": "medio",
+    "texto": "Qual destes artistas é conhecido como o 'Padrinho do Soul'?",
+    "opcoes": [
+      "James Brown",
+      "Ray Charles",
+      "Stevie Wonder",
+      "Marvin Gaye",
+      "Sam Cooke"
+    ],
+    "resposta": "James Brown",
+    "categoria": "Música"
+  },
+  {
+    "id": 25,
+    "dificuldade": "dificil",
+    "texto": "Qual foi o primeiro filme totalmente feito em computação gráfica?",
+    "opcoes": [
+      "Toy Story",
+      "Shrek",
+      "Formiguinhaz",
+      "Vida de Inseto",
+      "Monstros S.A."
+    ],
+    "resposta": "Toy Story",
+    "categoria": "Cinema"
+  },
+  {
+    "id": 26,
+    "dificuldade": "facil",
+    "texto": "Qual é a série de jogos mais vendida de todos os tempos?",
+    "opcoes": [
+      "Mario",
+      "Pokemon",
+      "Call of Duty",
+      "Grand Theft Auto",
+      "The Sims"
+    ],
+    "resposta": "Mario",
+    "categoria": "Games"
+  },
+  {
+    "id": 27,
+    "dificuldade": "medio",
+    "texto": "Qual destes artistas pintou 'A Noite Estrelada'?",
+    "opcoes": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Leonardo da Vinci"
+    ],
+    "resposta": "Vincent van Gogh",
+    "categoria": "Arte"
+  }
+  ]

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "dificuldade": "facil",
+    "texto": "Quem construiu a arca segundo a Bíblia?",
+    "opcoes": [
+      "Noé",
+      "Moisés",
+      "Abraão",
+      "Davi",
+      "Salomão"
+    ],
+    "resposta": "Noé",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 2,
+    "dificuldade": "facil",
+    "texto": "Qual foi o primeiro livro da Bíblia?",
+    "opcoes": [
+      "Gênesis",
+      "Êxodo",
+      "Levítico",
+      "Números",
+      "Deuteronômio"
+    ],
+    "resposta": "Gênesis",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 3,
+    "dificuldade": "facil",
+    "texto": "Quem foi o primeiro rei de Israel?",
+    "opcoes": [
+      "Saul",
+      "Davi",
+      "Salomão",
+      "Samuel",
+      "Josué"
+    ],
+    "resposta": "Saul",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 4,
+    "dificuldade": "facil",
+    "texto": "Qual era o nome do jardim onde Adão e Eva viviam?",
+    "opcoes": [
+      "Éden",
+      "Paraíso",
+      "Jerusalém",
+      "Babilônia",
+      "Canaã"
+    ],
+    "resposta": "Éden",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 5,
+    "dificuldade": "facil",
+    "texto": "Quem foi vendido como escravo por seus irmãos?",
+    "opcoes": [
+      "José",
+      "Benjamim",
+      "Jacó",
+      "Isaque",
+      "Abraão"
+    ],
+    "resposta": "José",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 6,
+    "dificuldade": "medio",
+    "texto": "Quantos anos durou a construção do Templo de Salomão?",
+    "opcoes": [
+      "7 anos",
+      "10 anos",
+      "12 anos",
+      "15 anos",
+      "20 anos"
+    ],
+    "resposta": "7 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 7,
+    "dificuldade": "medio",
+    "texto": "Qual profeta foi engolido por um grande peixe?",
+    "opcoes": [
+      "Jonas",
+      "Elias",
+      "Eliseu",
+      "Jeremias",
+      "Daniel"
+    ],
+    "resposta": "Jonas",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 8,
+    "dificuldade": "medio",
+    "texto": "Quantos livros tem o Novo Testamento?",
+    "opcoes": [
+      "27",
+      "39",
+      "66",
+      "73",
+      "46"
+    ],
+    "resposta": "27",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 9,
+    "dificuldade": "medio",
+    "texto": "Qual era a profissão de Paulo antes de sua conversão?",
+    "opcoes": [
+      "Fariseu",
+      "Pescador",
+      "Carpinteiro",
+      "Médico",
+      "Cobrador de impostos"
+    ],
+    "resposta": "Fariseu",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 10,
+    "dificuldade": "medio",
+    "texto": "Quantos dias Jesus passou no deserto?",
+    "opcoes": [
+      "40",
+      "30",
+      "50",
+      "60",
+      "70"
+    ],
+    "resposta": "40",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 11,
+    "dificuldade": "medio",
+    "texto": "Quantos anos Noé levou para construir a arca?",
+    "opcoes": [
+      "120 anos",
+      "100 anos",
+      "80 anos",
+      "150 anos",
+      "200 anos"
+    ],
+    "resposta": "120 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 12,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do pai de Moisés?",
+    "opcoes": [
+      "Anrão",
+      "Levi",
+      "Gérson",
+      "Coate",
+      "Merari"
+    ],
+    "resposta": "Anrão",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 13,
+    "dificuldade": "medio",
+    "texto": "Qual foi o primeiro milagre de Jesus?",
+    "opcoes": [
+      "Transformar água em vinho",
+      "Multiplicar pães e peixes",
+      "Curar um leproso",
+      "Ressuscitar Lázaro",
+      "Andar sobre as águas"
+    ],
+    "resposta": "Transformar água em vinho",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 14,
+    "dificuldade": "medio",
+    "texto": "Quem foi o sucessor de Moisés?",
+    "opcoes": [
+      "Josué",
+      "Calebe",
+      "Arão",
+      "Eleazar",
+      "Finéias"
+    ],
+    "resposta": "Josué",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 15,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da esposa de Abraão?",
+    "opcoes": [
+      "Sara",
+      "Rebeca",
+      "Raquel",
+      "Lia",
+      "Agar"
+    ],
+    "resposta": "Sara",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 16,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos viveu Matusalém?",
+    "opcoes": [
+      "969 anos",
+      "950 anos",
+      "930 anos",
+      "912 anos",
+      "905 anos"
+    ],
+    "resposta": "969 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 17,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do anjo que anunciou o nascimento de Jesus a Maria?",
+    "opcoes": [
+      "Gabriel",
+      "Miguel",
+      "Rafael",
+      "Uriel",
+      "Metatron"
+    ],
+    "resposta": "Gabriel",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 18,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos durou o reinado de Salomão?",
+    "opcoes": [
+      "40 anos",
+      "35 anos",
+      "45 anos",
+      "50 anos",
+      "30 anos"
+    ],
+    "resposta": "40 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 19,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do pai de João Batista?",
+    "opcoes": [
+      "Zacarias",
+      "Simeão",
+      "José",
+      "Joaquim",
+      "Eleazar"
+    ],
+    "resposta": "Zacarias",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 20,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos durou a peregrinação no deserto?",
+    "opcoes": [
+      "40 anos",
+      "30 anos",
+      "45 anos",
+      "50 anos",
+      "35 anos"
+    ],
+    "resposta": "40 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 21,
+    "dificuldade": "facil",
+    "texto": "Quem escreveu a maior parte dos Salmos?",
+    "opcoes": [
+      "Davi",
+      "Salomão",
+      "Moisés",
+      "Asafe",
+      "Samuel"
+    ],
+    "resposta": "Davi",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 22,
+    "dificuldade": "facil",
+    "texto": "Qual era a profissão de Pedro antes de seguir Jesus?",
+    "opcoes": [
+      "Pescador",
+      "Carpinteiro",
+      "Pastor",
+      "Comerciante",
+      "Escriba"
+    ],
+    "resposta": "Pescador",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 23,
+    "dificuldade": "medio",
+    "texto": "Quantos livros tem o Antigo Testamento?",
+    "opcoes": [
+      "39",
+      "27",
+      "46",
+      "66",
+      "73"
+    ],
+    "resposta": "39",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 24,
+    "dificuldade": "medio",
+    "texto": "Em qual monte Moisés recebeu os Dez Mandamentos?",
+    "opcoes": [
+      "Sinai",
+      "Horebe",
+      "Carmelo",
+      "Tabor",
+      "Moriá"
+    ],
+    "resposta": "Sinai",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 25,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome da sogra de Rute?",
+    "opcoes": [
+      "Noemi",
+      "Orfa",
+      "Raquel",
+      "Débora",
+      "Ana"
+    ],
+    "resposta": "Noemi",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 26,
+    "dificuldade": "facil",
+    "texto": "Qual foi a primeira mulher mencionada na Bíblia?",
+    "opcoes": [
+      "Eva",
+      "Sara",
+      "Maria",
+      "Lilith",
+      "Ada"
+    ],
+    "resposta": "Eva",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 27,
+    "dificuldade": "medio",
+    "texto": "Quantos discípulos Jesus enviou de dois em dois?",
+    "opcoes": [
+      "70",
+      "12",
+      "24",
+      "48",
+      "144"
+    ],
+    "resposta": "70",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 28,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome da esposa de Moisés?",
+    "opcoes": [
+      "Zípora",
+      "Miriam",
+      "Séfora",
+      "Bila",
+      "Zilpa"
+    ],
+    "resposta": "Zípora",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 29,
+    "dificuldade": "medio",
+    "texto": "Qual profeta foi levado ao céu em um carro de fogo?",
+    "opcoes": [
+      "Elias",
+      "Eliseu",
+      "Isaías",
+      "Jeremias",
+      "Ezequiel"
+    ],
+    "resposta": "Elias",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 30,
+    "dificuldade": "facil",
+    "texto": "Quem traiu Jesus por 30 moedas de prata?",
+    "opcoes": [
+      "Judas Iscariotes",
+      "Pedro",
+      "Tomé",
+      "João",
+      "Tiago"
+    ],
+    "resposta": "Judas Iscariotes",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 31,
+    "dificuldade": "facil",
+    "texto": "Qual era o nome do jardim onde Adão e Eva viviam?",
+    "opcoes": [
+      "Éden",
+      "Paraíso",
+      "Jerusalém",
+      "Babilônia",
+      "Canaã"
+    ],
+    "resposta": "Éden",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 32,
+    "dificuldade": "medio",
+    "texto": "Qual foi o sinal dado por Deus a Noé após o dilúvio?",
+    "opcoes": [
+      "Arco-íris",
+      "Pomba",
+      "Estrela",
+      "Nuvem",
+      "Fogo"
+    ],
+    "resposta": "Arco-íris",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 33,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Abraão quando nasceu Isaque?",
+    "opcoes": [
+      "100 anos",
+      "90 anos",
+      "85 anos",
+      "95 anos",
+      "75 anos"
+    ],
+    "resposta": "100 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 34,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da serpente de bronze que Moisés fez no deserto?",
+    "opcoes": [
+      "Neustã",
+      "Leviatã",
+      "Behemoth",
+      "Serafim",
+      "Querubim"
+    ],
+    "resposta": "Neustã",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 35,
+    "dificuldade": "facil",
+    "texto": "Quem era o mais forte dos juízes de Israel?",
+    "opcoes": [
+      "Sansão",
+      "Gideão",
+      "Débora",
+      "Jefté",
+      "Baraque"
+    ],
+    "resposta": "Sansão",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 36,
+    "dificuldade": "medio",
+    "texto": "Qual profeta foi chamado ainda criança?",
+    "opcoes": [
+      "Samuel",
+      "Daniel",
+      "Jeremias",
+      "Eliseu",
+      "Isaías"
+    ],
+    "resposta": "Samuel",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 37,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do servo de Abraão que buscou esposa para Isaque?",
+    "opcoes": [
+      "Eliézer",
+      "Ismael",
+      "Eleazar",
+      "Efraim",
+      "Elias"
+    ],
+    "resposta": "Eliézer",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 38,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da esposa de Isaque?",
+    "opcoes": [
+      "Rebeca",
+      "Raquel",
+      "Lia",
+      "Sara",
+      "Ana"
+    ],
+    "resposta": "Rebeca",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 39,
+    "dificuldade": "facil",
+    "texto": "Quem era o irmão de Moisés?",
+    "opcoes": [
+      "Arão",
+      "Josué",
+      "Calebe",
+      "Hur",
+      "Jetro"
+    ],
+    "resposta": "Arão",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 40,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da irmã de Moisés?",
+    "opcoes": [
+      "Miriã",
+      "Maria",
+      "Séfora",
+      "Ana",
+      "Débora"
+    ],
+    "resposta": "Miriã",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 41,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do rei de Tiro que ajudou Salomão a construir o templo?",
+    "opcoes": [
+      "Hirão",
+      "Nabucodonosor",
+      "Dario",
+      "Ciro",
+      "Artaxerxes"
+    ],
+    "resposta": "Hirão",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 42,
+    "dificuldade": "medio",
+    "texto": "Qual profeta viu um vale de ossos secos?",
+    "opcoes": [
+      "Ezequiel",
+      "Isaías",
+      "Jeremias",
+      "Daniel",
+      "Oséias"
+    ],
+    "resposta": "Ezequiel",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 43,
+    "dificuldade": "facil",
+    "texto": "Quem foi jogado na cova dos leões?",
+    "opcoes": [
+      "Daniel",
+      "Davi",
+      "José",
+      "Moisés",
+      "Samuel"
+    ],
+    "resposta": "Daniel",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 44,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do amigo de Jó que era buzita?",
+    "opcoes": [
+      "Bildade",
+      "Elifaz",
+      "Zofar",
+      "Eliú",
+      "Sofar"
+    ],
+    "resposta": "Bildade",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 45,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos durou a construção do segundo templo?",
+    "opcoes": [
+      "46 anos",
+      "40 anos",
+      "50 anos",
+      "33 anos",
+      "70 anos"
+    ],
+    "resposta": "46 anos",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 46,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do sumo sacerdote quando Samuel era menino?",
+    "opcoes": [
+      "Eli",
+      "Abiatar",
+      "Zadoque",
+      "Caifás",
+      "Anás"
+    ],
+    "resposta": "Eli",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 47,
+    "dificuldade": "facil",
+    "texto": "Quem era o pai de Salomão?",
+    "opcoes": [
+      "Davi",
+      "Saul",
+      "Samuel",
+      "Josias",
+      "Roboão"
+    ],
+    "resposta": "Davi",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 48,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da esposa de Ananias que morreu por mentir?",
+    "opcoes": [
+      "Safira",
+      "Priscila",
+      "Dorcas",
+      "Lídia",
+      "Tabita"
+    ],
+    "resposta": "Safira",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 49,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do pai de Gideão?",
+    "opcoes": [
+      "Joás",
+      "Joabe",
+      "Jotão",
+      "Jeú",
+      "Josafá"
+    ],
+    "resposta": "Joás",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 50,
+    "dificuldade": "medio",
+    "texto": "Qual profeta andou nu e descalço por três anos?",
+    "opcoes": [
+      "Isaías",
+      "Jeremias",
+      "Ezequiel",
+      "Oséias",
+      "Amós"
+    ],
+    "resposta": "Isaías",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 51,
+    "dificuldade": "facil",
+    "texto": "Qual era a profissão de Lucas?",
+    "opcoes": [
+      "Médico",
+      "Pescador",
+      "Carpinteiro",
+      "Pastor",
+      "Escriba"
+    ],
+    "resposta": "Médico",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 52,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do centurião que teve sua fé elogiada por Jesus?",
+    "opcoes": [
+      "Cornélio",
+      "Cláudio",
+      "Júlio",
+      "Félix",
+      "Festo"
+    ],
+    "resposta": "Cornélio",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 53,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Moisés quando morreu?",
+    "opcoes": [
+      "120 anos",
+      "110 anos",
+      "100 anos",
+      "130 anos",
+      "140 anos"
+    ],
+    "resposta": "120 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 54,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do rei que mandou Daniel para a cova dos leões?",
+    "opcoes": [
+      "Dario",
+      "Nabucodonosor",
+      "Belsazar",
+      "Ciro",
+      "Xerxes"
+    ],
+    "resposta": "Dario",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 55,
+    "dificuldade": "facil",
+    "texto": "Quem escreveu o livro de Apocalipse?",
+    "opcoes": [
+      "João",
+      "Paulo",
+      "Pedro",
+      "Tiago",
+      "Lucas"
+    ],
+    "resposta": "João",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 56,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da mulher que escondeu os espias em Jericó?",
+    "opcoes": [
+      "Raabe",
+      "Rute",
+      "Débora",
+      "Ester",
+      "Abigail"
+    ],
+    "resposta": "Raabe",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 57,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Sara quando deu à luz a Isaque?",
+    "opcoes": [
+      "90 anos",
+      "80 anos",
+      "85 anos",
+      "95 anos",
+      "100 anos"
+    ],
+    "resposta": "90 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 58,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do rei que teve lepra até o dia de sua morte?",
+    "opcoes": [
+      "Uzias",
+      "Acabe",
+      "Manassés",
+      "Josias",
+      "Ezequias"
+    ],
+    "resposta": "Uzias",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 59,
+    "dificuldade": "facil",
+    "texto": "Quem batizou Jesus?",
+    "opcoes": [
+      "João Batista",
+      "Pedro",
+      "André",
+      "Tiago",
+      "João"
+    ],
+    "resposta": "João Batista",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 60,
+    "dificuldade": "medio",
+    "texto": "Qual profeta foi alimentado por corvos?",
+    "opcoes": [
+      "Elias",
+      "Eliseu",
+      "Isaías",
+      "Jeremias",
+      "Ezequiel"
+    ],
+    "resposta": "Elias",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 61,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do pai de Boaz?",
+    "opcoes": [
+      "Salmom",
+      "Jessé",
+      "Obed",
+      "Elimeleque",
+      "Maalom"
+    ],
+    "resposta": "Salmom",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 62,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do homem que ajudou Jesus a carregar a cruz?",
+    "opcoes": [
+      "Simão de Cirene",
+      "José de Arimatéia",
+      "Nicodemos",
+      "Barrabás",
+      "Barnabé"
+    ],
+    "resposta": "Simão de Cirene",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 63,
+    "dificuldade": "facil",
+    "texto": "Qual era o nome do primeiro filho de Adão e Eva?",
+    "opcoes": [
+      "Caim",
+      "Abel",
+      "Sete",
+      "Enoque",
+      "Lameque"
+    ],
+    "resposta": "Caim",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 64,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do rei que viu uma mão escrevendo na parede?",
+    "opcoes": [
+      "Belsazar",
+      "Nabucodonosor",
+      "Dario",
+      "Ciro",
+      "Assuero"
+    ],
+    "resposta": "Belsazar",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 65,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Isaque quando foi oferecido em sacrifício?",
+    "opcoes": [
+      "33 anos",
+      "25 anos",
+      "20 anos",
+      "40 anos",
+      "15 anos"
+    ],
+    "resposta": "33 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 66,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do primeiro mártir cristão?",
+    "opcoes": [
+      "Estêvão",
+      "Tiago",
+      "Pedro",
+      "Paulo",
+      "João"
+    ],
+    "resposta": "Estêvão",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 67,
+    "dificuldade": "facil",
+    "texto": "Quem era o rei de Israel quando Golias foi morto?",
+    "opcoes": [
+      "Saul",
+      "Davi",
+      "Samuel",
+      "Salomão",
+      "Roboão"
+    ],
+    "resposta": "Saul",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 68,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da cidade onde Jesus transformou água em vinho?",
+    "opcoes": [
+      "Caná",
+      "Nazaré",
+      "Belém",
+      "Cafarnaum",
+      "Jerusalém"
+    ],
+    "resposta": "Caná",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 69,
+    "dificuldade": "dificil",
+    "texto": "Qual era o nome do pai de Saul?",
+    "opcoes": [
+      "Quis",
+      "Ner",
+      "Abner",
+      "Jessé",
+      "Samuel"
+    ],
+    "resposta": "Quis",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 70,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do discípulo que era cobrador de impostos?",
+    "opcoes": [
+      "Mateus",
+      "Marcos",
+      "Lucas",
+      "João",
+      "Tiago"
+    ],
+    "resposta": "Mateus",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 71,
+    "dificuldade": "facil",
+    "texto": "Qual era o nome do monte onde a arca de Noé parou?",
+    "opcoes": [
+      "Ararate",
+      "Sinai",
+      "Carmelo",
+      "Horebe",
+      "Moriá"
+    ],
+    "resposta": "Ararate",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 72,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da mulher que ungiu os pés de Jesus com perfume?",
+    "opcoes": [
+      "Maria de Betânia",
+      "Maria Madalena",
+      "Marta",
+      "Salomé",
+      "Joana"
+    ],
+    "resposta": "Maria de Betânia",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 73,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha José quando foi vendido por seus irmãos?",
+    "opcoes": [
+      "17 anos",
+      "20 anos",
+      "15 anos",
+      "25 anos",
+      "30 anos"
+    ],
+    "resposta": "17 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 74,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do governador romano que julgou Jesus?",
+    "opcoes": [
+      "Pôncio Pilatos",
+      "Herodes",
+      "César Augusto",
+      "Tibério",
+      "Félix"
+    ],
+    "resposta": "Pôncio Pilatos",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 75,
+    "dificuldade": "facil",
+    "texto": "Qual era o nome do jardim onde Jesus foi preso?",
+    "opcoes": [
+      "Getsêmani",
+      "Éden",
+      "Betânia",
+      "Oliveiras",
+      "Cedrom"
+    ],
+    "resposta": "Getsêmani",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 76,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do rei que mandou matar todos os meninos de Belém?",
+    "opcoes": [
+      "Herodes",
+      "César",
+      "Pilatos",
+      "Agripa",
+      "Tibério"
+    ],
+    "resposta": "Herodes",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 77,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Davi quando começou a reinar?",
+    "opcoes": [
+      "30 anos",
+      "25 anos",
+      "35 anos",
+      "40 anos",
+      "20 anos"
+    ],
+    "resposta": "30 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 78,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do homem que hospedou Pedro em Jope?",
+    "opcoes": [
+      "Simão",
+      "Cornélio",
+      "Filipe",
+      "Timóteo",
+      "Tito"
+    ],
+    "resposta": "Simão",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 79,
+    "dificuldade": "facil",
+    "texto": "Quem era o pai de João Batista?",
+    "opcoes": [
+      "Zacarias",
+      "José",
+      "Joaquim",
+      "Zebedeu",
+      "Simão"
+    ],
+    "resposta": "Zacarias",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 80,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da mulher de Jó?",
+    "opcoes": [
+      "Não é mencionado",
+      "Sara",
+      "Raquel",
+      "Lia",
+      "Ana"
+    ],
+    "resposta": "Não é mencionado",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 81,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos durou a fome no Egito?",
+    "opcoes": [
+      "7 anos",
+      "3 anos",
+      "5 anos",
+      "10 anos",
+      "12 anos"
+    ],
+    "resposta": "7 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 82,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do discípulo que Jesus amava?",
+    "opcoes": [
+      "João",
+      "Pedro",
+      "Tiago",
+      "André",
+      "Filipe"
+    ],
+    "resposta": "João",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 83,
+    "dificuldade": "facil",
+    "texto": "Quem era o pai de Davi?",
+    "opcoes": [
+      "Jessé",
+      "Saul",
+      "Samuel",
+      "Salomão",
+      "Isai"
+    ],
+    "resposta": "Jessé",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 84,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da cidade onde Jesus cresceu?",
+    "opcoes": [
+      "Nazaré",
+      "Belém",
+      "Jerusalém",
+      "Cafarnaum",
+      "Jericó"
+    ],
+    "resposta": "Nazaré",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 85,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Josué quando morreu?",
+    "opcoes": [
+      "110 anos",
+      "120 anos",
+      "100 anos",
+      "90 anos",
+      "80 anos"
+    ],
+    "resposta": "110 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 86,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do anjo que apareceu a Maria?",
+    "opcoes": [
+      "Gabriel",
+      "Miguel",
+      "Rafael",
+      "Uriel",
+      "Metatron"
+    ],
+    "resposta": "Gabriel",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 87,
+    "dificuldade": "facil",
+    "texto": "Quem era o rei de Babilônia que levou os judeus cativos?",
+    "opcoes": [
+      "Nabucodonosor",
+      "Ciro",
+      "Dario",
+      "Belsazar",
+      "Xerxes"
+    ],
+    "resposta": "Nabucodonosor",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 88,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da cidade onde Paulo nasceu?",
+    "opcoes": [
+      "Tarso",
+      "Jerusalém",
+      "Antioquia",
+      "Roma",
+      "Damasco"
+    ],
+    "resposta": "Tarso",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 89,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Abraão quando morreu?",
+    "opcoes": [
+      "175 anos",
+      "180 anos",
+      "165 anos",
+      "170 anos",
+      "160 anos"
+    ],
+    "resposta": "175 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 90,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do homem que Jesus ressuscitou em Betânia?",
+    "opcoes": [
+      "Lázaro",
+      "João",
+      "Simão",
+      "Nicodemos",
+      "José"
+    ],
+    "resposta": "Lázaro",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 91,
+    "dificuldade": "facil",
+    "texto": "Quem era a mãe de Jesus?",
+    "opcoes": [
+      "Maria",
+      "Isabel",
+      "Ana",
+      "Sara",
+      "Raquel"
+    ],
+    "resposta": "Maria",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 92,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do rei que pediu sabedoria a Deus?",
+    "opcoes": [
+      "Salomão",
+      "Davi",
+      "Saul",
+      "Roboão",
+      "Josias"
+    ],
+    "resposta": "Salomão",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 93,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha José quando morreu no Egito?",
+    "opcoes": [
+      "110 anos",
+      "120 anos",
+      "100 anos",
+      "90 anos",
+      "80 anos"
+    ],
+    "resposta": "110 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 94,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do monte onde Jesus foi transfigurado?",
+    "opcoes": [
+      "Monte Tabor",
+      "Monte Sinai",
+      "Monte Carmelo",
+      "Monte das Oliveiras",
+      "Monte Sião"
+    ],
+    "resposta": "Monte Tabor",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 95,
+    "dificuldade": "facil",
+    "texto": "Quem era o irmão de Marta e Maria?",
+    "opcoes": [
+      "Lázaro",
+      "João",
+      "Pedro",
+      "Tiago",
+      "André"
+    ],
+    "resposta": "Lázaro",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 96,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do profeta que foi engolido por um grande peixe?",
+    "opcoes": [
+      "Jonas",
+      "Elias",
+      "Eliseu",
+      "Daniel",
+      "Oséias"
+    ],
+    "resposta": "Jonas",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 97,
+    "dificuldade": "dificil",
+    "texto": "Quantos anos tinha Isaque quando morreu?",
+    "opcoes": [
+      "180 anos",
+      "175 anos",
+      "165 anos",
+      "170 anos",
+      "160 anos"
+    ],
+    "resposta": "180 anos",
+    "categoria": "Antigo Testamento"
+  },
+  {
+    "id": 98,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome do homem que ajudou a enterrar Jesus?",
+    "opcoes": [
+      "José de Arimatéia",
+      "Nicodemos",
+      "Simão de Cirene",
+      "Barnabé",
+      "Filipe"
+    ],
+    "resposta": "José de Arimatéia",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 99,
+    "dificuldade": "facil",
+    "texto": "Em qual cidade Jesus nasceu?",
+    "opcoes": [
+      "Belém",
+      "Nazaré",
+      "Jerusalém",
+      "Cafarnaum",
+      "Jericó"
+    ],
+    "resposta": "Belém",
+    "categoria": "Novo Testamento"
+  },
+  {
+    "id": 100,
+    "dificuldade": "medio",
+    "texto": "Qual era o nome da mulher de Abraão que deu à luz a Ismael?",
+    "opcoes": [
+      "Agar",
+      "Sara",
+      "Rebeca",
+      "Raquel",
+      "Lia"
+    ],
+    "resposta": "Agar",
+    "categoria": "Antigo Testamento"
+  }
+]

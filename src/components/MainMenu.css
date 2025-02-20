@@ -11,11 +11,32 @@
   margin-bottom: var(--spacing-xlarge);
 }
 
-.name-input {
-  /* Estilos já definidos em App.css para input[type="text"], garantindo consistência */
-  margin-bottom: var(--spacing-medium);
-  width: 70%; /* Ajuste a largura conforme necessário */
+.input-container {
+  width: 70%;
   max-width: 300px;
+  margin-bottom: var(--spacing-medium);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-input {
+  width: 100%;
+  margin-bottom: var(--spacing-small);
+}
+
+.error-message {
+  color: #ff3366;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 4px;
+  text-shadow: 0 0 5px #ff3366;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .start-button {

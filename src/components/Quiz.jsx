@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
     import Question from './Question';
-    import questionsData from '../data/questions.json';
+    import iaQuestions from '../data/questions.json';
+import culturaQuestions from '../data/culture_questions.json';
+import biblicalQuestions from '../data/biblical_questions.json';
+import footballQuestions from '../data/football_questions.json';
     import './Quiz.css';
 
-    function Quiz({ onQuizEnd }) {
+    function Quiz({ onQuizEnd, theme = 'ia' }) {
       const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
       const [score, setScore] = useState(0);
       const [streak, setStreak] = useState(0);
@@ -16,7 +19,19 @@ import React, { useState, useEffect, useRef } from 'react';
       const timerRef = useRef(null);
 
       useEffect(() => {
-        const shuffledQuestions = [...questionsData].sort(() => 0.5 - Math.random()).slice(0, 10);
+        const getQuestionsByTheme = () => {
+          switch (theme) {
+            case 'culture':
+              return culturaQuestions;
+            case 'biblical':
+              return biblicalQuestions;
+            case 'football':
+              return footballQuestions;
+            default:
+              return iaQuestions;
+          }
+        };
+        const shuffledQuestions = [...getQuestionsByTheme()].sort(() => 0.5 - Math.random()).slice(0, 10);
         setAvailableQuestions(shuffledQuestions);
         setCurrentQuestionIndex(0);
         setScore(0);
@@ -77,7 +92,7 @@ import React, { useState, useEffect, useRef } from 'react';
           setBonus(0);
         } else {
           setQuizCompleted(true);
-          onQuizEnd(score); // Pass the final score to App
+          onQuizEnd(score, theme); // Pass both score and theme to App
         }
       };
 
